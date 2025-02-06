@@ -6,7 +6,7 @@ class Program
 {
     static async Task Main()
     {
-        string apiUrl = "https://script.google.com/macros/s/AKfycbzCvSzI44P_56g05YxWotbigKJq12MHE8aL-Arv2GuZI8acVgRC9BDlxKJIOnOtn0-e6w/exec";
+        string apiUrl = "https://script.google.com/macros/s/AKfycby22YgxR3QxQrljPhX3gKHfFKi_h_9MBZb4WI4ESw19E44tWLX3dKg0IEXuq7OsJBz8rQ/exec";
 
         using (HttpClient client = new HttpClient())
         {
