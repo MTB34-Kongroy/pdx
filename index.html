@@ -90,7 +90,8 @@
     const rowsPerPage = 10; // จำนวนแถวที่จะแสดงในแต่ละหน้า
 
     async function fetchData() {
-        const apiUrl = "https://script.google.com/macros/s/AKfycbxPCXB64rKkdT-Ocv1w2Tl2UUsCaorVp1Pcz4nLrYV5DzLjgEvONyQnaPUpWuwnbQzWKg/exec";
+         const apiUrl = "https://script.google.com/macros/s/AKfycbw2XWnNmncsHiNTJbC1fR3DThV-w86a73jC-7bNj_MwbHl7m9drPCbF16mkJVd7kZHWyw/exec";
+
 
         try {
             let response = await fetch(apiUrl);
@@ -187,7 +188,8 @@
 
     // ฟังก์ชั่นบันทึกข้อมูลทั้งหมดที่แก้ไขแล้ว
    async function saveChanges(rowIndex) {
-    const apiUrl = "https://script.google.com/macros/s/AKfycbxPCXB64rKkdT-Ocv1w2Tl2UUsCaorVp1Pcz4nLrYV5DzLjgEvONyQnaPUpWuwnbQzWKg/exec";
+    const apiUrl = "https://script.google.com/macros/s/AKfycbw2XWnNmncsHiNTJbC1fR3DThV-w86a73jC-7bNj_MwbHl7m9drPCbF16mkJVd7kZHWyw/exec";
+
 
     const requestData = {
         rowIndex: rowIndex,
